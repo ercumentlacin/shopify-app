@@ -6,7 +6,7 @@ import { Routes, Route } from 'react-router-dom';
 
 import useProducts from 'hooks/useProducts';
 
-const Header = lazy(() => import('components/Layout/Header/Header'));
+const Header = lazy(() => import('components/Layout/Header'));
 const Main = lazy(() => import('components/Layout/Main'));
 const Table = lazy(() => import('components/Table'));
 const ProductDetail = lazy(() => import('components/ProductDetail'));

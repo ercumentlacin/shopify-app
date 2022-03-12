@@ -1,5 +1,5 @@
 import Header from 'components/Layout/Header/Header';
-import { render, screen } from '@testing-library/react'
+import { render, screen } from '@testing-library/react';
 import { Suspense } from 'react';
 import Spinner from 'components/Spinner/Spinner';
 import { MemoryRouter } from 'react-router-dom';

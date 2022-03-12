@@ -1,8 +1,9 @@
 import logo from 'assets/svg/logo.svg';
-import { FormEvent, useEffect } from 'react';
+import { FormEvent } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 
 interface IProps {
+  // eslint-disable-next-line no-unused-vars
   onSearch: (params: string) => void;
 }
 

@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import { render } from '@testing-library/react';
 import Spinner from 'components/Spinner/Spinner';
 import { Suspense } from 'react';
