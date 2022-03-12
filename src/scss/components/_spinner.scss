@@ -1,0 +1,25 @@
+.spinner {
+  position: absolute;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    width: 3rem;
+    height: 3rem;
+    animation: spin 1s linear infinite;
+    filter: $color-filter;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

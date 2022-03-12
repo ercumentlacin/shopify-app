@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;600&display=swap');
+
+// breakpoints
+$md: 40em;
+$lg: 52em;
+$xl: 64em;
+
+// font
+$font-sans: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell,
+  Noto Sans, sans-serif;
+$font-mukata: 'Mukta', sans-serif;
+
+// colors
+$color-bg: hsl(176, 49%, 38%);
+$color-primary: hsl(200, 27%, 98%);
+$color-secondary: hsl(0, 0%, 100%);
+$color-tertiary: hsl(244, 76%, 65%);
+$color-quaternary: hsl(0, 0%, 60%);
+$color-filter: invert(48%) sepia(50%) saturate(6330%) hue-rotate(228deg)
+  brightness(96%) contrast(90%);
+
+//shadows
+$shadow-sm: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+  rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;

@@ -1,0 +1,65 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.5rem 1rem;
+  background: $color-primary;
+  color: $color-quaternary;
+
+  &__brand {
+    flex-basis: 100%;
+    flex: 4;
+
+    display: flex;
+    align-items: center;
+
+    &__logo {
+      width: auto;
+      height: 2rem;
+      filter: invert(48%) sepia(50%) saturate(6330%) hue-rotate(228deg)
+        brightness(96%) contrast(90%);
+    }
+
+    &__name {
+      font-weight: 900;
+      font-size: 1.25rem;
+      margin-left: 0.5rem;
+      color: $color-tertiary;
+    }
+
+    &__logo,
+    &__name {
+      cursor: pointer;
+      user-select: none;
+    }
+  }
+
+  &__search-area {
+    flex-basis: 100%;
+    flex: 6;
+
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    &__input {
+      width: max(50%, min(100%, 100vw - 2rem));
+      @extend .input;
+      height: 2.5rem;
+    }
+    &__button {
+      @extend .button;
+      height: 2.5rem;
+      width: 8rem;
+    }
+  }
+}
+
+@include breakpoint(md) {
+  .header {
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,13 @@
+.full-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+strong {
+  font-weight: bold;
+}
+
+a {
+  color: $color-tertiary;
+}

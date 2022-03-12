@@ -1,0 +1,15 @@
+@import 'base';
+@import 'abstracts';
+@import 'components';
+@import 'layout';
+@import 'pages';
+
+* {
+  font-family: $font-sans !important;
+  line-height: 1.5 !important;
+  box-sizing: border-box !important;
+}
+
+body {
+  background: $color-bg;
+}
